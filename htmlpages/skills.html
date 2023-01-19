@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	.center {
+    border: none;
+    text-align: center;  
+}
+.top-heading{
+	display: block;
+}
+.tbl-style{
+    width: 50%;
+    margin: 0 auto;
+	}
+	.icon-img{
+		    height: 80px;
+    margin: 0px auto;
+    display: block;
+	}
+
+@media screen and (max-width: 1010px) {
+  .web-menu {  
+    padding: 5px 35px;
+  }
+  .mobile-container{
+  	display: none;
+  }
+}
+@media screen and (max-width: 870px) {
+  .web-menu {  
+    padding: 5px 0px;
+  }
+  .mobile-container{
+  	display: none;
+  } 
+}
+@media screen and (max-width: 800px) {
+  .web-menu {
+    display: none;
+  }
+  .mobile-container{
+  	display: block;
+  	    max-width: 100%;
+  }
+  .work1 {
+    width: 50%;
+    float: left;
+    margin-left: 0%;
+}
+  .work-img {
+    height: 147px;
+}
+}
+
+	@media screen and (max-width: 480px) {
+  .web-menu {
+    display: none;
+  }
+  .mobile-container{display: block;}
+
+.fpadding {padding-left: 2%;}
+.first {width: 97%;    height: auto;}
+.second {
+    width: 93%;
+    padding-left: 4%;
+}
+.heading {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 31px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.content {
+    color: #545454;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 5px;
+}
+.small-heading {
+    font-size: 19px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #000000ad;
+    font-family: monospace;
+    margin-left: 5px;
+}
+
+.email {
+    font-size: 15px;
+    text-align: start;}
+
+}
+</style>
+</head>
+<body>
+
+<div class="container web-menu">
+	<div class="logo">
+		<img src="../images/logo.png" alt="Logo">
+	</div>
+	<nav class="menu-bar">
+	  <ul class="menu-ul">
+	  <li><a class="active" href="../index.html">Home</a></li>
+	  <li><a href="education.html">Education</a></li>
+	  <li><a href="recent-work.html">Projects</a></li>
+	  <li><a href="skills.html">Skills</a></li>
+	  <li><a href="feedback.html">Feedback</a></li>
+	  <li><a href="contact-us.html">Contact Us</a></li>
+	  <li style="padding-top: 9px;"><button class="cv-button"><b>Download CV</b></button></li>
+	</ul>
+  </nav>
+</div>
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="mobile-topnav">
+  <a href="index.php" class="active"> <img src="images/logo.png" alt="img here..." style="height: 50px;"></a>
+  <div id="myLinks">
+      <a class="active" href="index.html">Home</a>
+	  <a href="education.html">Education</a>
+	  <a href="recent-work.html">Projects</a>
+	  <a href="skills.html">Skills</a>
+	  <a href="feedback.html">Feedback</a>
+	  <a href="contact-us.html">Contact Us</a>
+	  <button class="cv-button"><b>Download CV</b></button>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="padding: 25px 36px;">
+    <i class="fa fa-bars" style="font-size: 30px;color: white;"></i>
+  </a>
+</div>
+
+</div>
+
+
+
+<div style="background: #f0eeef;">
+	<div style="width:80%;padding-top: 35px;margin: 0 auto;">
+		<h3 class="top-heading center">Skills</h3>
+			<table class="table tbl-style">
+					<tr>
+						<td class="border"><h3 class="skill-title">Frontend:</h3></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>
+							<p class="skill-name">HTML</p>
+							<img src="../images/html.png" alt="img here..." class="icon-img">
+
+						</td>
+						<td >
+							<p class="skill-name">CSS</p>
+							<img src="../images/css.png" alt="img here..." class="icon-img">
+						</td>
+						<td >
+							<p class="skill-name">JS</p>
+							<img src="../images/js.png" alt="img here..." class="icon-img">
+						</td>
+					</tr>
+					<tr>
+						<td class="border"><h3 class="skill-title">Backend:</h3></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td >
+							<p class="skill-name">MySQL</p>
+							<img src="../images/mysql.png" alt="img here..." class="icon-img">
+
+						</td>
+						<td >
+							<p class="skill-name">Firebase</p>
+							<img src="../images/firebase.png"  alt="img here...">
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="border"><h3 class="skill-title">Other:</h3></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td >
+							<p class="skill-name">WordPress</p>
+							<img src="../images/wp.png"  alt="img here..." class="icon-img">
+
+						</td>
+						<td >
+							<p class="skill-name">Firebase</p>
+							<img src="../images/marketting.png" alt="img" class="icon-img">
+						</td>
+						<td></td>
+					</tr>
+				</table>
+		
+
+
+<table style="width: 100%;padding-top: 5rem;">
+	<tr>
+		<td><p class="email"><b>Email: SO31827L@students.staffs.ac.uk</b></p></td>
+		<td><p class="phone">Phone No: 075 9224 9413</p></td>
+	</tr>
+	<tr>
+	<td colspan="2" class="center">
+		<i class='fa fa-facebook font-icon center'></i>
+		<i class='fa fa-instagram font-icon center'></i>
+	    <i class='fa fa-linkedin font-icon center'></i>
+	</td></tr>
+	<tr>
+		<td  colspan="2"><p class="copywrite center">All rights reserved SAQIB SADIQUE © 2022</p></td>
+	</tr>
+</table>
+	</div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>

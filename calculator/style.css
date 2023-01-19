@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #2BAFF7;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+        color: #7e7c7c;
+    font-size: 43px;
+    margin-bottom: 0px;
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+        color: #7e7c7c;
+  }
+  .btn {
+        color: #424040;
+    cursor: pointer;
+    padding: 5px 12px;
+    font-size: 20px;
+    border: 2px solid #2196f3;
+    background: none;
+    border-radius: 21px;
+}
+  }
+  .money-img {
+    width: 25%;
+  }
+  .currency {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #line{
+        border: none;
+    border-bottom: 3px solid #7e7c7c;
+    width: 20%;
+    margin: auto;
+  }
+  .currency input {
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+  }
+  .swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rate {
+        color: #7e7c7c;
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  select{
+        width: 75px;
+    padding: 5px;
+    border: 2px solid #7e7c7c;
+    border-radius: 5px;
+}
+  }
+  select:focus,
+  input:focus,
+  button:focus {
+    outline: 0;
+  }
+  @media (max-width: 1000px) {
+    .currency input {
+      width: 200px;
+    }
+    .money-img{
+      width: 400px;
+    }
+  }
